@@ -4,7 +4,10 @@
                                     <span class="input-group-btn">
                                         <button class="btn btn-default slider-search" type="button"><i class="fa fa-search" aria-hidden="true"></i></button>
                                     </span>
-                                    <input type="text" class="form-control form-sidebar" placeholder="Search">
+                                    <form method="post" action="search.php" >
+                                        <input type="text" name="key" class="form-control form-sidebar" placeholder="Search">
+                                        <input type="submit" style="display:none"/>
+                                    </form>
                                 </div><!-- /input-group -->
                                 <div class="box-slider-left slideCategory">
                                     <h3 class="slider-left-title">Danh mục sản phẩm</h3>
